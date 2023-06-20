@@ -1,7 +1,7 @@
 import pandas as pd
 
-readPath=r"C:\Users\OP7050\Documents\zoomus_users.csv"
-writePath=r"C:\Users\OP7050\Documents\studentEmails.txt"
+readPath=r""
+writePath=r""
 
 # saves Email and User Group columns to dataframe
 df=pd.read_csv(readPath, usecols=['Email','User Group'])
